@@ -1,0 +1,19 @@
+h2{
+    display: inline ;
+}
+img{
+    width: 40px;
+}
+p::first-line{
+    color: red;
+}
+p::first-letter{
+    color: black;
+    font-size: 50px;
+    float: left;
+    line-height: 30px;
+}
+p::selection{
+    background-color: yellow;
+    color: red;
+}

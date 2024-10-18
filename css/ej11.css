@@ -1,0 +1,26 @@
+#menu p{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial';
+    display: inline;
+}
+a:link{
+    width: 160px;
+    padding: 3px;
+    background-color: #f7f8e8;
+    text-align: center;
+    border-bottom: 1px #eeeeee;
+    color: green;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    background-color: #336699;
+    color: pink;
+}
+a:active{
+    background-color: #336699;
+    color: white;
+}
