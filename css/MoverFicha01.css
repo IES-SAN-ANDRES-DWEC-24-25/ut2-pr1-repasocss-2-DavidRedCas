@@ -1,0 +1,52 @@
+body{
+    display: flex;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    display: grid;
+    margin: 15px;
+}
+
+.caja{
+    position: relative;
+}
+
+.ficha{
+    height: 40px;
+    width: 40px;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ficha1{
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#ficha2{
+    background-color: green;
+    top: 60%;
+    left: 60%;
+}
+#ficha3{
+    background-color: yellow;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#ficha4{
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
